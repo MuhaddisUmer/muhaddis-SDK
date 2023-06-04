@@ -1,7 +1,7 @@
 {
   "name": "muhaddis-lord-ring-sdk",
   "version": "1.0.0",
-  "description": "This package SDK is used to to access Lord of Ring API's",
+  "description": "This SDK package can be used to to access Lord of Ring API's",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
