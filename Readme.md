@@ -9,20 +9,20 @@ This SDK package can be used to to access Lord of Ring API's
 
 ### 1. Movies
 Function to get all movies:
-```LordRing.movies.getAll()```
+```LordRing.movies.getAll(api-key-here)```
 
 Function to get movie by id:
-```LordRing.movies.getById(movieId)```
+```LordRing.movies.getById(movieId, api-key-here)```
 
 Function to get quote of a movie by id:
-```LordRing.movies.getQuote(movieId)```
+```LordRing.movies.getQuote(movieId, api-key-here)```
 
 ### 2. Quotes
 Function to get all quotes:
-```LordRing.quotes.getAll()```
+```LordRing.quotes.getAll(api-key-here)```
 
 Function to get quotes by id:
-```LordRing.quotes.getById(quoteId)```
+```LordRing.quotes.getById(quoteId, api-key-here)```
 
 ## Future Modules
 ### 1. Books

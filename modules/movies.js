@@ -6,28 +6,31 @@ const lordRingAPI = axios.create({
     headers: { Authorization: `Bearer ${process['env']['API_KEY']}` }
 });
 
-exports.getAll = () => {
+// Function to get all movies
+exports.getAll = (apiKey) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let { data } = await lordRingAPI.get('movie');
+            let { data } = await lordRingAPI.get('movie', {headers: { Authorization: `Bearer ${apiKey}` }});
             return resolve(data);
         } catch ({ response }) { return reject(response) }
     });
 }
 
-exports.getById = (movieId) => {
+// Function to get a movie by id
+exports.getById = (movieId, apiKey) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let { data } = await lordRingAPI.get(`movie/${movieId}`);
+            let { data } = await lordRingAPI.get(`movie/${movieId}`, {headers: { Authorization: `Bearer ${apiKey}` }});
             return resolve(data);
         } catch ({ response }) { return reject(response) }
     });
 }
 
-exports.getQuote = (movieId) => {
+// Function to get quote of a movie by id
+exports.getQuote = (movieId, apiKey) => {
     return new Promise(async (resolve, reject) => {
         try {
-            let { data } = await lordRingAPI.get(`movie/${movieId}/quote`);
+            let { data } = await lordRingAPI.get(`movie/${movieId}/quote`, {headers: { Authorization: `Bearer ${apiKey}` }});
             return resolve(data);
         } catch ({ response }) { return reject(response) }
     });
