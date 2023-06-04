@@ -8,7 +8,6 @@ This SDK package can be used to to access Lord of Ring API's
 ```const LordRing = require("muhaddis-lord-ring-sdk");```
 
 ### 1. Movies
-
 Function to get all movies:
 ```LordRing.movies.getAll()```
 
@@ -19,7 +18,6 @@ Function to get quote of a movie by id:
 ```LordRing.movies.getQuote(movieId)```
 
 ### 2. Quotes
-
 Function to get all quotes:
 ```LordRing.quotes.getAll()```
 
