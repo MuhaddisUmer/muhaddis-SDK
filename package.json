@@ -1,12 +1,19 @@
 {
-  "name": "muhaddis-lord-ring-sdk",
+  "name": "@muhaddis/lord-ring-sdk",
   "version": "1.0.0",
   "description": "This SDK package can be used to to access Lord of Ring API's",
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout 10000"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhaddisUmer/muhaddis-SDK.git"
+  },
+  "author": "Muhaddis Umer",
+  "keywords": [
+    "lord of rings"
+  ],
   "license": "MIT",
   "dependencies": {
     "axios": "^1.4.0",

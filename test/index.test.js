@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 let expect = require('chai').expect;
-let { movies, quotes } = require('../index');
+let { movies, quotes } = require('muhaddis-lord-ring-sdk');
 
 let apiKey = '7fAPCX9lgo8OV-mfUAec';
 let movieId = '5cd95395de30eff6ebccde56';

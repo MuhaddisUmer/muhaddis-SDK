@@ -1,6 +1,10 @@
 # Lord Ring API SDK
 This SDK package can be used to to access Lord of Ring API's
 
+## API KEY's
+You can get API Keys by Signing up on: 
+```https://the-one-api.dev/sign-up```
+
 ## Installation
 ```npm i muhaddis-lord-ring-sdk```
 
